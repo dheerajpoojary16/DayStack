@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "DayStack",
+    "slug": "daystack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "web": {
+      "favicon": "./public/icons/icon-192.png",
+      "bundler": "metro",
+      "themeColor": "#080A09",
+      "backgroundColor": "#080A09",
+      "display": "standalone",
+      "orientation": "portrait",
+      "name": "DayStack – Daily Checklist",
+      "shortName": "DayStack",
+      "lang": "en"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.daystack"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
